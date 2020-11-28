@@ -17,7 +17,7 @@ const blogData = [
         Let's look at a simple example<br><br>
         
         
-        <strong style="color:black;font-size:1.3rem;">
+       <code>
         const btn=<br>document.querySelector('btn);<br>
         
         btn.addEventListener('click', () => {<br>
@@ -31,7 +31,7 @@ const blogData = [
        
         document.body.appendChild(p);<br>
       
-        });<br><br></strong>
+        });<br><br></code>
 
         In the above example we grab a reference to a
         <strong>button</strong> element that is already available in the DOM.<br>
@@ -61,7 +61,7 @@ const blogData = [
         XMLHttpRequest.<br>
         Let's Look at a example to understand the concept of asynchronous<br><br>
 
-      <strong style="color:black;font-size:1.4rem;">
+        <code>
          fetch("url")<br>
         
         .then((response)=>{<br>
@@ -73,7 +73,7 @@ const blogData = [
               
                 console.log("Promise is returned")})<br>
               
-                console.log("Promise is being processed");<br></strong><br><br>
+                console.log("Promise is being processed");<br></code><br><br>
 
        <strong> Output:Promise is being processed; Promise is returned<br></strong><br><br>
                 
@@ -119,7 +119,7 @@ const blogData = [
      <br>Let's begin with an example<br>
       <br>
 
-      <strong style="color:black;font-size:1.4rem;">
+        <code>
         async function cricapi(){ <br>
             const url="https://cricapi.com/api/playerStats"; <br>
             const res = await fetch(url); <br>
@@ -128,7 +128,7 @@ const blogData = [
         } <br>
         crickapi();<br>
         console.log("before execution of async function");<br><br>
-        </strong>
+        </code>
         <strong>Output:</strong><br>
         Before execution of async function<br>
         After execution of async function completed<br><br>
