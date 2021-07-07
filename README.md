@@ -1,7 +1,7 @@
 # Blogging-Website
 ## Java Script Blogs
 Live Site https://javascript-blogs.netlify.app/
-Personal Blogging Website
+Personal Blogging Website For Javascript Related Blogs
 
 
 ## If you want to contribute add a PR
